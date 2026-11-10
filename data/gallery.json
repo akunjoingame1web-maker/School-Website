@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Taman Bermain",
+    "type": "Foto",
+    "url": "Foto\\PAUD YANG DIPAKEK.jpeg",
+    "caption": "Fasilitas arena bermain luar ruangan yang aman dan menyenangkan."
+  },
+  {
+    "id": 2,
+    "title": "Tampilan Luar Kelas",
+    "type": "Foto",
+    "url": "Foto\\PAUD.jpeg",
+    "caption": "Tampilan luar kelas yang luas dan bersih."
+  },
+  {
+    "id": 3,
+    "title": "Dokumentasi Belajar Siswa",
+    "type": "Video",
+    "url": "Foto\\VID.MP4",
+    "caption": "Video keseruan Belajar dan latihan ketangkasan anak."
+  }
+]

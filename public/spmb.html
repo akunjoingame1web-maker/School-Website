@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran SPMB -  Bali Global Kinder School</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="nav-container"><a href="index.html" class="logo-container" style="display: flex; align-items: center; gap: 10px;">
+    <img src="Foto/PAUD GLOBAL.jpg.jpeg" alt="Logo Sekolah" style="height: 70px; width: auto;">
+</a>
+            <a href="/" class="brand-logo">  Bali Global Kinder School</a>
+            <ul class="nav-menu">
+                <li><a href="/">Beranda</a></li>
+                <li><a href="/profil">Profil Sekolah</a></li>
+                <li><a href="/berita">Berita</a></li>
+                <li><a href="/agenda">Agenda</a></li>
+                <li><a href="/galeri">Galeri</a></li>
+                <li><a href="/kontak">Kontak</a></li>
+                <li><a href="/spmb" class="btn-spmb">Daftar SPMB</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="section-title">Sistem Penerimaan Murid Baru (SPMB) 2026/2027</h2>
+        <p style="margin-bottom: 1.5rem;">Silakan lengkapi formulir pendaftaran daring di bawah ini.</p>
+
+        <div id="spmb-alert" style="display:none; padding:1rem; border-radius:8px; margin-bottom:1.5rem;"></div>
+
+        <div class="form-card">
+            <form id="spmb-form">
+                <h3 style="margin-bottom: 1rem; color:var(--primary);">Data Calon Murid</h3>
+                <div class="form-group">
+                    <label for="child_name">Nama Lengkap Anak *</label>
+                    <input type="text" id="child_name" class="form-control" required placeholder="Contoh: Budi Pratama">
+                </div>
+                <div class="form-group">
+                    <label for="dob">Tanggal Lahir *</label>
+                    <input type="date" id="dob" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Jenis Kelamin *</label>
+                    <select id="gender" class="form-control" required>
+                        <option value="Laki-laki">Laki-laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="program">Pilihan Jenjang / Program *</label>
+                    <select id="program" class="form-control" required>
+                        <option value="Kelompok Bermain / Playgroup (Usia 2-3 Tahun)">Kelompok Bermain / Playgroup (Usia 2-3 Tahun)</option>
+                        <option value="TK A (Usia 4-5 Tahun)">TK A (Usia 4-5 Tahun)</option>
+                        <option value="TK B (Usia 5-6 Tahun)">TK B (Usia 5-6 Tahun)</option>
+                    </select>
+                </div>
+
+                <h3 style="margin: 1.5rem 0 1rem; color:var(--primary);">Data Orang Tua / Wali</h3>
+                <div class="form-group">
+                    <label for="parent_name">Nama Orang Tua / Wali *</label>
+                    <input type="text" id="parent_name" class="form-control" required placeholder="Contoh: Siti Rahmawati">
+                </div>
+                <div class="form-group">
+                    <label for="phone">No. WhatsApp / HP Active *</label>
+                    <input type="tel" id="phone" class="form-control" required placeholder="081234567890">
+                </div>
+                <div class="form-group">
+                    <label for="email">Alamat Email *</label>
+                    <input type="email" id="email" class="form-control" required placeholder="orangtua@example.com">
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Kirim Pendaftaran SPMB</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026  Bali Global Kinder School. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/site.js"></script>
+    <script src="/js/spmb.js"></script>
+</body>
+</html>

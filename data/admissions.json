@@ -1,0 +1,15 @@
+[
+  {
+    "id": 101,
+    "registration_code": "SPMB-2026-001",
+    "child_name": "Budi Verstappen",
+    "dob": "2022-04-12",
+    "gender": "Laki-laki",
+    "parent_name": "Siti Ronaldinho",
+    "phone": "081234567890",
+    "email": "siti.rahma@example.com",
+    "program": "TK A (Usia 4-5 Tahun)",
+    "status": "Terverifikasi",
+    "created_at": "2026-11-01 10:30:00"
+  }
+]
